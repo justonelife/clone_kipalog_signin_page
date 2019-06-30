@@ -71,7 +71,7 @@ div#login-panel {
     padding-top: 30px;
     position: relative;
 }
-div#login-panel:before {
+div#login-panel::before {
     content: "";
     display: inline-block;
     height: 30px;
@@ -83,7 +83,7 @@ div#login-panel:before {
     top: 93%;
     transform: translate(-50%, -50%);
 }
-div#login-panel:after {
+div#login-panel::after {
     content: "";
     display: inline-block;
     height: 5px;
@@ -153,7 +153,7 @@ div#complex-shape {
     margin: 0px auto;
     position: relative;
 }
-div#complex-shape:before {
+div#complex-shape::before {
     content: "";
     display: inline-block;
     width: 140px;
@@ -163,7 +163,7 @@ div#complex-shape:before {
     top: 50%;
     left: 0%;
 }
-div#complex-shape:after {
+div#complex-shape::after {
     content: "";
     display: inline-block;
     width: 140px;
