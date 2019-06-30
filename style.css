@@ -218,3 +218,26 @@ button#github-connect-btn {
 button#github-connect-btn:hover {
     background-color: #4c4c4c;
 }
+
+/*Mobile's screen*/
+@media screen and (max-width: 500px) {
+    nav {
+        padding: 0px 10px;
+    }
+    div#head-title {
+        width: 100%;
+    }
+    div#top {
+        height: 120px;
+        padding-top: 40px;
+    }
+    p#detail {
+        display: none;
+    }
+    div#connections button {
+        display: block;
+        margin: 0px auto;
+        margin-bottom: 10px;
+        width: 337px;
+    }
+}
